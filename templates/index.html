@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheep" href="{ url_for('static', filename='css/style.css)}}">
+    <title>Friends locations map</title>
+</head>
+<style>
+    body {
+        background-size: cover;
+        text-align: center;
+        font-family: sans-serif;
+    }
+</style>
+<body>
+
+
+    <h1><center>Friends Locations Map</center></h1>
+    <form action="/map" method="POST">
+        <div class="search-box">
+
+            <input type="text" class="search-box" id="search-box" name="name" placeholder="Enter @username"/>
+            <input type="submit" value="search"/>
+        </div>
+    </form>
+
+</body>
+</html>
