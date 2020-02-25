@@ -16,10 +16,10 @@ Also, you need to enter your personal keys for Twitter API in module "hidden.py"
 This module creates a web-site where you can enter ane Twitter username and you'll see a map with markers of friends with their screen names.
 
 
-### Приклад запуску введення та скріншот згенерованої мапи
-![](посилання)
+### Example of module's work
+![](screen1.jpg)
 
-![](посилання)
+![](screen2.jpg)
 
 
 ## Author
